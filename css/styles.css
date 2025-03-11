@@ -131,7 +131,7 @@ header {
   flex-direction: column;
 }
 
-.sec-onehone {
+.sec-one-hone {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -162,12 +162,27 @@ header {
   background-color: #404bbf;
 }
 
-.sec-twohthree {
+.sec-two {
+  padding: 120px 0;
+}
+
+.sec-two-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.sec-two-li {
+  width: calc((100%-72px) / 4);
+
+}
+
+.sec-two-hthree {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .sec-two-p {

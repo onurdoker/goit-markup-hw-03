@@ -116,7 +116,6 @@ header {
   color: #404bbf;
 }
 
-
 /*  SECTION ONE  */
 .sec-one {
   background-color: #2e2f42;
@@ -154,7 +153,7 @@ header {
   min-width: 169px;
   height: 56px;
   border: none;
-  border-radius: 4px;;
+  border-radius: 4px;
 }
 
 .sec-onebutton:hover,
@@ -166,6 +165,19 @@ header {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .sec-two-ul {
   display: flex;
   gap: 24px;
@@ -173,7 +185,6 @@ header {
 
 .sec-two-li {
   width: calc((100%-72px) / 4);
-
 }
 
 .sec-two-hthree {
@@ -194,27 +205,41 @@ header {
 
 .sec-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
-.sec-threehtwo {
+.sec-three-htwo {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin: 72px;
 }
 
+.sec-three-ul {
+  display: flex;
+  gap: 24px;
+}
 .sec-three-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.sec-threehthree {
+.sec-three-div-two {
+  padding: 32px 0;
+}
+
+.sec-three-hthree {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .sec-three-p {
@@ -222,15 +247,41 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
-.sec-fourhtwo {
+
+.sec-four {
+  padding: 120px 0;
+}
+
+.sec-four-htwo {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.sec-four-ul {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 24px;
+  column-gap: 24px;
+  row-gap:48px;
+}
+
+.sec-four-li {
+  width: calc((100% - 72px) / 4);
+}
+
+.sec-four-div-two {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .sec-fourhthree {
@@ -248,8 +299,22 @@ header {
   color: #434455;
 }
 
-footer {
+.footer-bar {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display:inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -260,4 +325,5 @@ footer {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }

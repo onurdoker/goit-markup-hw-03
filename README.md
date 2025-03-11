@@ -1,1 +1,2 @@
-# goit-markup-hw-03
+GoIT Fullstack Web Designer
+3rd Homework

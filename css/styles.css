@@ -272,9 +272,7 @@ header {
   row-gap: 48px;
 }
 
-.sec-four-li {
-  flex-basis: calc((100%-72px) / 4);
-}
+
 
 .sec-four-div-two {
   padding: 32px 16px;
